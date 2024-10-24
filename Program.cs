@@ -3,6 +3,7 @@
 Console.WriteLine("Hello, World!");
 Console.WriteLine("I live in Denmark!");
 Console.WriteLine("I like pandas!");
+Console.WriteLine("Testar att lägga till detta");
 
 string text = System.IO.File.ReadAllText("panda-info.txt");
 System.Console.WriteLine($"Here in info from the file 👉 {text}!");
